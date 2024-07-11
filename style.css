@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 20px;
+    width: 300px;
+  }
+  
+  .icon {
+    font-size: 60px;
+    color: #00a0ff;
+    margin-bottom: 20px;
+  }
+  
+  .icon span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #00a0ff;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #00a0ff;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+
+  
+.awards-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .award-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .award {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .award img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  .award p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .award span {
+    font-size: 16px;
+    color: #666;
+  }
